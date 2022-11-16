@@ -10,17 +10,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("span").click(function(){
+            alert("Your message has been sent");
+          });
+        });
+    </script>
 </head>
+
 <body class="main-content">
+
+    <!-- Page1: Create a header -->
     <header class="container header active" id="home">
         <div class="header-content">
+
+            <!-- insert img -->
             <div class="left-header">
                 <div class="h-shape"></div>
                 <div class="image">
                     <img src="img/hero.jpg" alt="">
                 </div>
             </div>
+
+            <!-- Introduction -->
             <div class="right-header">
+                <!-- Info -->
                 <h1 class="name">
                     Hi, I'm <span>Phung Hoang.</span>
                 </h1>
@@ -31,6 +47,7 @@
                     <br><br>
                     Favorite quotes: "Self-belief and hard work will always earn you success".
                 </p>
+                <!-- Download button -->
                 <div class="btn-con">
                     <a download href="index.html" class="main-btn">
                         <span class="btn-text">Download CV</span>
@@ -40,11 +57,14 @@
             </div>
         </div>
     </header>
+
     <main>
+        <!-- Page 2: More information -->
         <section class="container about" id="about">
             <div class="main-title">
                 <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
             </div>
+            <!-- Introduction -->
             <div class="about-container">
                 <div class="left-about">
                     <h4>More information about me: </h4>
@@ -80,20 +100,10 @@
                             <p class="small-text">Years of <br /> experience</p>
                         </div>
                     </div>
-                    <!-- <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">300+</p>
-                            <p class="small-text">Happy <br /> Clients</p>
-                        </div>
-                    </div> -->
-                    <!-- <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">400+</p>
-                            <p class="small-text">Customer <br /> reviews</p>
-                        </div>
-                    </div> -->
+
                 </div>
             </div>
+            <!-- Status -->
             <div class="about-stats">
                 <h4 class="stat-title">My Skills</h4>
                 <div class="progress-bars">
@@ -153,6 +163,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Timeline -->
             <h4 class="stat-title">My Timeline</h4>
             <div class="timeline">
                 <div class="timeline-item">
@@ -222,6 +233,7 @@
                 </div>
             </div>
         </section>
+        <!-- Page 3: Projects -->
         <section class="container" id="blogs">
             <div class="blogs-content">
                 <div class="main-title">
@@ -303,6 +315,7 @@
                 </div>
             </div>
         </section>
+        <!-- Page 4: Contact -->
         <section class="container contact" id="contact">
             <div class="contact-container">
                 <div class="main-title">
@@ -391,7 +404,7 @@
                                 <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
                             </div>
                             <div class="submit-btn">
-                                <a href="#" class="main-btn">
+                                <a href="" class="main-btn">
                                     <span class="btn-text">Send</span>
                                 </a>
                             </div>
