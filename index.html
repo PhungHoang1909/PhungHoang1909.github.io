@@ -13,7 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
-          $("span").click(function(){
+          $("#submit").click(function(){
             alert("Your message has been sent");
           });
         });
@@ -392,7 +392,12 @@
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form action="" class="contact-form">
+                        
+                        <!-- This form is the innovation part you talked earlier
+                        When you submit the form it will be sent to the email: 2151013026hoang@ou.edu.vn
+                        Using formsubmit.co-->
+                        
+                        <form action="https://formsubmit.co/2151013026hoang@ou.edu.vn" method="POST" class="contact-form">
                             <div class="input-control i-c-2">
                                 <input type="text" required placeholder="YOUR NAME">
                                 <input type="email" required placeholder="YOUR EMAIL">
@@ -404,7 +409,7 @@
                                 <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
                             </div>
                             <div class="submit-btn">
-                                <a href="" class="main-btn">
+                                <a href="" class="main-btn" id="submit">
                                     <span class="btn-text">Send</span>
                                 </a>
                             </div>
