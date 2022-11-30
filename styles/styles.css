@@ -999,7 +999,7 @@
   transition: box-shadow .2s;
 }
 
-.button-1:active {
+/* .button-1:active {
   background-color: #F7F7F7;
   border-color: #000000;
   transform: scale(.96);
@@ -1010,4 +1010,4 @@
   color: #DDDDDD;
   cursor: not-allowed;
   opacity: 1;
-}
+} */
