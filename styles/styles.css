@@ -994,10 +994,10 @@
   width: auto;
 }
 
-.button-1:focus-visible {
+/* .button-1:focus-visible {
   box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
   transition: box-shadow .2s;
-}
+} */
 
 /* .button-1:active {
   background-color: #F7F7F7;
